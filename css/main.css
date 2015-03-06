@@ -6,4 +6,23 @@ html {
 }
 header{
   background-color: blue;
+  position: relative;
+  margin: 0;
+  padding:1em;
+}
+.headleft {
+ position: absolute;
+ width: 125px;
+ right:50%;
+
+}
+.headright {
+  position: absolute;
+  left: 50%;
+  width: 125px;
+}
+.brain {
+  position: absolute;
+  width: 46px;
+  left: 45%;
 }
