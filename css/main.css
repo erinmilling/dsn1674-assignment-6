@@ -4,22 +4,29 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+body{
+  margin: 0;
+}
 header{
   background-color: blue;
-  position: relative;
+
   margin: 0;
-  padding:1em;
+  padding: 1em 0em 0em 0em;
 }
 .headleft {
  position: absolute;
  width: 125px;
  right:50%;
+ transition: all 250ms linear;
+ top: 0px;
 
 }
 .headright {
   position: absolute;
   left: 50%;
   width: 125px;
+  transition: all 250ms linear;
+  top: 0px;
 }
 .brain {
   position: absolute;
@@ -33,4 +40,16 @@ header{
 }
 h1{
   background-color: navy;
+  padding: 1em;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  font-style: italic;
+}
+div{
+  position: relative;
+  width: 320px;
+  margin: 0 auto;
 }
