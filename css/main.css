@@ -24,10 +24,13 @@ header{
 .brain {
   position: absolute;
   width: 46px;
-  left: 44%;
-  top: 45px;
+  left: 43%;
+  top: 48px;
 }
 .body {
   width: 320px;
   margin-top: 36px;
+}
+h1{
+  background-color: navy;
 }
